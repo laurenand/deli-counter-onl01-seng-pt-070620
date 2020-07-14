@@ -8,6 +8,6 @@ def line(deli)
     deli.each_with_index do |name,index|
     puts current_line << " #{index+=1}. #{name}"
   end
-  current_line
+  current_line.strip
 end
 end
