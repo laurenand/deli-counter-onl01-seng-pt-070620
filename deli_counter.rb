@@ -7,3 +7,4 @@ def line(katz_deli)
       current_line << " #{index}. #{name}"
   end
 end
+end
